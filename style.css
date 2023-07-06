@@ -89,3 +89,37 @@ li:hover{
 .about-img{
     width: 300px;
 }
+
+.Service-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+    background-image: url("images/background.png"),linear-gradient(45deg,rgb(209, 204, 204),black);
+    
+}
+.box{
+    background-color: black;
+    width: 230px;
+    height: 280px;
+    /* border: 10px solid blueviolet; */
+    padding: 15px;
+    /* margin: 10px; */
+    box-shadow: 5px 10px 15px rgb(166, 163, 163);
+    text-align: center;
+    color: white;
+}
+.icon-img{
+    width: 70px;
+}
+.btn-2{
+    background-color: gray;
+    margin-top: 15px;
+}
+.box-titel{
+    padding: 10px;
+}
+.box-p{
+    padding: 10px;
+}
